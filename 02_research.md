@@ -8,8 +8,6 @@ permalink: /research/
 sidebar_link: true
 sidebar_sort_order: 2
 ---
-<br>
-
 <b>Real time Chest X-ray Pathology detection and localization framework with Convolutional Neural Networks and Ensembling</b><br>
 <i>2022 International Conference on Electrical, Computer, Communications and Mechatronics Engineering (ICECCME), Maldives, Maldives, 2022</i>
 

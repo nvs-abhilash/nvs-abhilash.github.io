@@ -8,7 +8,6 @@ permalink: /patents/
 sidebar_link: true
 sidebar_sort_order: 2
 ---
-<br>
 
 <b>Dimension estimation using duplicate instance identification in a multiview and multiscale system</b><br>
 <i>Provisional published on 2023/03 in US PTO - PENDING</i>
