@@ -14,8 +14,10 @@ layout: home
 
 <br>
 
-Hey there! I am Abhilash. A Machine Learning Engineer / Data Scientist with more than 5 years of work experience in training and deploying deep learning models. I also have expertise in designing and buidling serverless architecture in AWS.
+**Who am I?**
+Hey there! I am Abhilash. A Machine Learning Engineer with more than 5 years of work experience in training and deploying deep learning models. I also have expertise in designing and buidling serverless architectures in AWS.
 
+**What do I do?**
 Currently, I work as a Machine Learning Engineer at Amazone One, where my goal is to take ML code from research to production and build scalable offline systems.
 
 Further, I have always enjoyed giving back to the community. I have contributed to open source projects like GNU Octave, Torchvision, and FastAI.
