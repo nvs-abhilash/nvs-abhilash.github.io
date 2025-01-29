@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Tutorial: How to scale and rotate contours in OpenCV"
-date:   2019-06-29
-tags: [article]
+title: "Scaling and Rotating contours"
+date: 2019-06-29
 ---
-In this tutorial, I'll walk you through how one can scale and rotate a contour.
 
-NB: The official post is provided to Analytics-Vidhya here: [https://medium.com/analytics-vidhya/tutorial-how-to-scale-and-rotate-contours-in-opencv-using-python-f48be59c35a2](https://medium.com/analytics-vidhya/tutorial-how-to-scale-and-rotate-contours-in-opencv-using-python-f48be59c35a2)
+## Learning by example
+
+![png](/assets/output_4_0.png){:class="img-responsive"}
 
 ## TL;DR just want the code
 
