@@ -1,16 +1,17 @@
 ---
 layout: post
-title: "Scaling and Rotating contours"
+title:  "Tutorial: How to scale and rotate contours in OpenCV"
 date: 2019-06-29
+tags: [article, opencv]
 ---
 
 ## Learning by example
 
-![png](/assets/output_4_0.png){:class="img-responsive"}
+![png](/assets/posts/2019-06-29/output_4_0.png){:class="img-responsive"}
 
 ## TL;DR just want the code
 
-The functions are present in this github gist: https://gist.github.com/nvs-abhilash/75a3920980fe32ffd4754bc205362125.
+The functions are present in this github gist: [gist.github.com/nvs-abhilash/75a3920980fe32ffd4754bc205362125](https://gist.github.com/nvs-abhilash/75a3920980fe32ffd4754bc205362125).
 
 Follow along, if you want to understand what's the simple idea behind the implementation.
 
@@ -58,7 +59,7 @@ plt.axis("off");
 ```
 
 
-![png](/assets/output_4_0.png){:class="img-responsive"}
+![png](/assets/posts/2019-06-29/output_4_0.png){:class="img-responsive"}
 
 
 ## How to resize contours
@@ -141,7 +142,7 @@ plt.axis("off");
 ```
 
 
-![png](/assets/output_8_0.png){:class="img-responsive"}
+![png](/assets/posts/2019-06-29/output_8_0.png){:class="img-responsive"}
 
 
 ## How to rotate contours
@@ -279,7 +280,7 @@ plt.axis("off");
 ```
 
 
-![png](/assets/output_12_0.png){:class="img-responsive"}
+![png](/assets/posts/2019-06-29/output_12_0.png){:class="img-responsive"}
 
 
 ## Having fun with random rotation, scale, and translation
@@ -314,4 +315,4 @@ plt.axis("off");
 ```
 
 
-![png](/assets/output_14_0.png){:class="img-responsive"}
+![png](/assets/posts/2019-06-29/output_14_0.png){:class="img-responsive"}

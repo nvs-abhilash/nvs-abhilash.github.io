@@ -2,23 +2,15 @@
 layout: home
 ---
 
-![My Profile Picture](/assets/profilepic.jpg){:style="border-radius: 50%;"}
+<img src="/assets/profilepic.jpg" alt="My Profile Picture" style="display: block; margin: auto; border-radius: 50%; width: 234px; height: 234px;" />
 
-# Hi, I'm NVS Abhilash
-#### Machine Learning Engineer • Software Enthusiast • Cloud-Native Explorer
-
-Welcome to my personal website! I'm passionate about:
-- Building and deploying **deep learning models**.
-- Designing **robust software** architectures.
-- Contributing to **open source** projects.
-- Organizing **tech communities**.
-
+<h1 style="text-align: center;">NVS Abhilash</h1>
+<h4 style="text-align: center;"> Machine Learning Engineer • Software Enthusiast • Open Source Contributor </h4>
+{% include social.html %}
 ---
 
-### Quick Links
+I’m a **Machine Learning Engineer** at **Amazon One Research**, building **scalable** and **efficient** models for **computer vision** tasks. My expertise includes **deep learning**, **metric learning**, and model optimization. I enjoy bridging **ML** and **software engineering** to create impactful solutions.  
 
-- **[About Me](/about/)** - Learn more about my background and interests.
-- **[Projects](/projects/)** – Check out some of the cool things I’ve built.
-- **[Posts](/posts/)** – Read my latest posts on ML techniques, software design, and more.
-- **[Contact](mailto:your_email@example.com)** – Get in touch, or find me on [GitHub](https://github.com/nvs-abhilash) and [LinkedIn](https://linkedin.com/in/nvs_abhilash).
+Beyond work, I explore **new technologies**, contribute to **open source**, and help organize **BangPypers** and **PyData** meetups. I also write about **ML**, **software engineering**, and my experiences. Lately, I’ve been diving into **CUDA**, **AI Engineering Design**, and **Rust** to expand my skill set.
 
+---
