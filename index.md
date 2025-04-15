@@ -9,8 +9,12 @@ layout: home
 {% include social.html %}
 ---
 
-I’m a **Machine Learning Engineer** at **Amazon One Research**, building **scalable** and **efficient** models for **computer vision** tasks. My expertise includes **deep learning**, **metric learning**, and model optimization. I enjoy bridging **ML** and **software engineering** to create impactful solutions.  
+Hi! I’m a Machine Learning Engineer at Amazon One Research, where I work on building scalable, efficient models for computer vision problems. My focus areas include deep learning, metric learning, and model optimization—and I love combining ML with solid engineering to solve real-world challenges.
 
-Beyond work, I explore **new technologies**, contribute to **open source**, and help organize **BangPypers** and **PyData** meetups. I also write about **ML**, **software engineering**, and my experiences. Lately, I’ve been diving into **CUDA**, **AI Engineering Design**, and **Rust** to expand my skill set.
+Outside of work, I stay curious. I explore emerging tech, contribute to open source, and help organize community events like BangPypers and PyData meetups. I enjoy sharing what I learn, whether through code, talks, or writing.
+
+Lately, I’ve been geeking out on CUDA, AI system design, and Rust—just trying to level up and have fun while doing it.
+
+Thanks for dropping by!
 
 ---
