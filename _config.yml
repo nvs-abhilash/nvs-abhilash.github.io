@@ -39,8 +39,8 @@ minima:
   hide_site_feed_link: true
 
   social_links:
-    - { platform: x, user_url: "https://x.com/nvs_abhilash", icon: "x-twitter" }
-    - { platform: github, user_url: "https://github.com/nvs-abhilash", icon: "github" }
-    - { platform: linkedin, user_url: "https://www.linkedin.com/in/nvs-abhilash", icon: "linkedin" }
+    - { platform: x, url: "https://x.com/nvs_abhilash", icon: "x-twitter" }
+    - { platform: github, url: "https://github.com/nvs-abhilash", icon: "github" }
+    - { platform: linkedin, url: "https://www.linkedin.com/in/nvs-abhilash", icon: "linkedin" }
 
 google_analytics: G-EM58XPRM50
