@@ -10,7 +10,7 @@ sidebar_sort_order: 4
 
 *Published on 2024/01 in US PTO - ACTIVE*
 
-[US20230063002A1]("https://patents.google.com/patent/US11875496B2)
+[US20230063002A1](https://patents.google.com/patent/US11875496B2)
 
 ---
 

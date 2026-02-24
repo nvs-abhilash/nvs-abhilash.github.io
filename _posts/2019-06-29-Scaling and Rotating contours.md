@@ -27,7 +27,7 @@ Plus, I did not find any python articles regarding this, so I thought I'll give 
 
 ## Learning by example
 
-Throughout this short tutorial, I would be using a simple image to demostrate my points, below is some code for imports and loading the image, and generating the contours. You know, that standard stuff!
+Throughout this short tutorial, I would be using a simple image to demonstrate my points, below is some code for imports and loading the image, and generating the contours. You know, that standard stuff!
 
 
 ```python
@@ -37,7 +37,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Reading the image
-im = cv2.imread('sample_img.png'){:class="img-responsive"}
+im = cv2.imread('sample_img.png')
 
 # Converting image to grayscale
 imgray = cv2.cvtColor(im, cv2.COLOR_BGR2GRAY)
@@ -74,7 +74,7 @@ Below I explain and show code equivalents of each step.
 
 ### Translate the contour to the origin
 
-To translate the contour to the origin, we just have to subtract the coordinates of the centroid of the contour with all the points. And the centeroid of the contour can be found using the `cv2.moments` function.
+To translate the contour to the origin, we just have to subtract the coordinates of the centroid of the contour with all the points. And the centroid of the contour can be found using the `cv2.moments` function.
 
 * Getting the centroid of the contour
 ```python
@@ -107,7 +107,7 @@ cnt_scaled = cnt_scaled.astype(np.int32)
 
 ### Combining all the steps into a function for scaling
 
-Hence we can write a simpe function based on the above steps as below:
+Hence we can write a simple function based on the above steps as below:
 
 
 ```python
@@ -126,8 +126,8 @@ def scale_contour(cnt, scale):
 
 And we can call this function to test that it works fine!
 
-* **RED BOUNDRY**: Original contour
-* **GREEN BOUNDRY**: Scaled contour
+* **RED BOUNDARY**: Original contour
+* **GREEN BOUNDARY**: Scaled contour
 
 
 ```python
@@ -169,7 +169,7 @@ cnt_norm = cnt - [cx, cy]
 
 ### Rotating each point of the contour
 
-Once you have put the contour to the origin, we have to rotate each point. And for me understanding rotation is much easier in polar co-ordinates as compared to cartesian co-ordinates (I hope for you too :P). So, that's what we'll do! Convert the points to polar coordates, add the rotation, and convert it back to cartesian co-ordinates. 
+Once you have put the contour to the origin, we have to rotate each point. And for me understanding rotation is much easier in polar co-ordinates as compared to cartesian co-ordinates (I hope for you too :P). So, that's what we'll do! Convert the points to polar coordinates, add the rotation, and convert it back to cartesian co-ordinates. 
 
 * These are some helper functions which I borrowed from [here](https://stackoverflow.com/a/26757297) to convert back and forth between polar and cartesian co-ordinates
 
@@ -220,7 +220,7 @@ cnt_rotated = cnt_rotated.astype(np.int32)
 
 ### Combining all the steps into a function for rotation
 
-Hence we can write a simpe function based on the above steps as below:
+Hence we can write a simple function based on the above steps as below:
 
 
 ```python
@@ -264,8 +264,8 @@ def rotate_contour(cnt, angle):
 
 And we can call this function to test that it works fine!
 
-* **RED BOUNDRY**: Original contour
-* **GREEN BOUNDRY**: Scaled contour
+* **RED BOUNDARY**: Original contour
+* **GREEN BOUNDARY**: Rotated contour
 
 
 ```python
@@ -287,14 +287,14 @@ plt.axis("off");
 
 Here is a simple code to generated random rotation, scaling and translation (not covered in the tutorial but it's just a simple addition of co-ordinates).
 
-In-case someone wants to disect this code, these are the key things I did:
-* Generate multiple randon contours with a loop. (I know right :D )
+In-case someone wants to dissect this code, these are the key things I did:
+* Generate multiple random contours with a loop. (I know right :D )
 * Get randomness with `np.random.random()` which returns random numbers between `[0, 1)`. We can multiply it with desired max value to get values between `[0, max_vale)`.
 * For rotation, I chose angle between `0` and `90` degrees, as the image is symmetric at `90` degrees rotation.
 * For scale I took random values between `0` to `0.5`, i.e. from 0% to 50% of original contour.
 * Randomly translated between `(-200, 200)` across x and y axis.
 * Random color generation of rgb values.
-* Just drawing the contours with `thickness=-1` which dentes to fill the contour.
+* Just drawing the contours with `thickness=-1` which denotes fill the contour.
 
 
 ```python
