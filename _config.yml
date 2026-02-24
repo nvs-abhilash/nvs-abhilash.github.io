@@ -43,4 +43,7 @@ minima:
     - { platform: github, url: "https://github.com/nvs-abhilash", icon: "github" }
     - { platform: linkedin, url: "https://www.linkedin.com/in/nvs-abhilash", icon: "linkedin" }
 
+exclude:
+  - CLAUDE.md
+
 google_analytics: G-EM58XPRM50

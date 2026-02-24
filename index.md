@@ -2,7 +2,7 @@
 layout: home
 ---
 
-<img src="/assets/profilepic.jpg" alt="My Profile Picture" style="display: block; margin: auto; border-radius: 50%; width: 234px; height: 234px;" />
+<img src="/assets/profilepic.jpg" alt="My Profile Picture" style="display: block; margin: auto; border-radius: 50%; width: 234px; height: 234px; object-fit: cover;" />
 
 <h1 style="text-align: center;">NVS Abhilash</h1>
 <h4 style="text-align: center;"> Machine Learning Engineer II • Agentic AI • Open Source Contributor </h4>
